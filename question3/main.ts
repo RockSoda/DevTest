@@ -124,6 +124,7 @@ export class Connect4 {
       }
     }
 
+    this.switchPlayer()
     return 'Column full!'
   }
 }
