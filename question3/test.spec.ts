@@ -26,6 +26,7 @@ describe("Sample Tests", function () {
     assert.equal(game.play(4), "Player 1 has a turn", "Should return 'Player 1 has a turn'")
     assert.equal(game.play(4), "Player 2 has a turn", "Should return 'Player 2 has a turn'")
     assert.equal(game.play(4), "Column full!", "Should return 'Column full!'")
+    assert.equal(game.play(2), "Player 1 has a turn", "Should return 'Player 2 has a turn'")
 
     game = new Connect4();
     assert.equal(game.play(1), "Player 1 has a turn", "Should return 'Player 1 has a turn'")
